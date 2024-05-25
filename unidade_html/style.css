@@ -17,6 +17,7 @@ article{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    max-inline-size: 66ch;
 }
 aside{
     background-color: darkgray;
