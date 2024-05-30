@@ -3,18 +3,20 @@ html{
 }
 body{
     display: grid;
-    grid-template-columns: 1fr 3fr;
   }
-nav{
-    display: flex;
+header{
+    display: grid;
+    width: 100%;
+    padding: var(--metric-box-spacing);
     padding: 2rem;
+    text;
 }
 main{
-    margin-top:100px;
+    margin-top:50px;
     background-color: lightgray;
 }
 article{
-    display: flex;
+    display: grid;
     flex-direction: row;
     flex-wrap: wrap;
     max-inline-size: 66ch;
