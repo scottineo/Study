@@ -3,13 +3,14 @@ html{
 }
 body{
     display: grid;
+    grid-template-areas: 
+    "nav"
+    "content"
+    "aside";
   }
 header{
-    display: grid;
-    width: 100%;
-    padding: var(--metric-box-spacing);
-    padding: 2rem;
-    text;
+    grid-area: "nav";
+
 }
 main{
     margin-top:50px;
@@ -28,4 +29,7 @@ aside{
         body {
             display:grid;
         }
+}
+.nav{
+    display: inline-block;
 }
